@@ -9,6 +9,10 @@ export const AddTransaction =() => {
     const {addTransaction}= useContext(GlobalContext);
     const onSubmit= e => {
         e.preventDefault();
+        if(text.trim() === '' || amount.trim() === '') {
+            alert("Please enter text and amount");
+            return;
+        }
 
         const newTransaction={
             id : Math.floor(Math.random() * 100000000),
