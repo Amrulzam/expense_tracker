@@ -1,5 +1,6 @@
 {
-  "name": "https://Amrulzam.github.io/expense_tracker",
+  "homepage": "https://Amrulzam.github.io/expense_tracker",
+  "name": "Expense_Tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
